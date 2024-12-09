@@ -3,4 +3,4 @@ __pycache__/
 *.log
 venv/
 *.csv
-*.json
+!credentials/*.json  # No ignores los archivos .json dentro de la carpeta credentials
